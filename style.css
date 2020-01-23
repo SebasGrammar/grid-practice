@@ -58,6 +58,7 @@
   }
 
   .product-section > *, .details-section > * {
+      padding: 20px;
       background: #FFF;
   }
 
@@ -75,7 +76,35 @@
   .other-posts {
     background: ;
   }
+
+  .title {
+      margin: 4px;
+  }
+
+  .pictures {
+
+    display: flex;
+    justify-content: space-around;
+    width: ;
+
+  }
   
+  .picture {
+      background: red;
+      flex-grow: 1;
+      margin: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border: 1px solid gray;
+  }
+  
+.image {
+    height: 150px;
+    max-width: 100%;
+}
+
   .description {
     background: ;
   }
