@@ -81,26 +81,34 @@
     background: ;
   }
 
+  .other-posts > p, h2, h3, h4, .comment, .reply {
+    margin: 15px 5px;
+  }
+
   .title {
-      margin: 10px;
+      margin: ;
   }
 
   .pictures {
 
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    
     align-items: flex-start;
-    height: 500px;
+    height: ; */
 
   }
 
   .carrousel {
     display: flex;
     justify-content: space-around;
+
     align-items: flex-start;
     position: relative;
-    background: orange;
+    background: ;
   }
+
 
   .slider {
     border: 1px solid blue;
@@ -111,8 +119,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: blue;
-    color: white;
+    background: #FFF;
+    color: ;
 }
 
   .left, .right {
@@ -132,30 +140,50 @@
   .post-container {
       display: flex;
       flex-direction: column;
-      width: calc(100% / 4 - 20px);
+      width: calc(100% / 4);
 
       border-radius: 3px;
       border: 1px solid #6CC2BD;
-      margin: ;
-      background: red;
+      margin: 5px;
+      background: ;
   }
   
   .picture {
       background: ;
       flex: ;
-      
       display: flex;
       align-items: center;
       justify-content: center;
-      
-      
   }
 
   .post-details {
       border-top: 1px solid #6CC2BD;
       padding: 10px;
   }
-  
+
+  .post-details * {
+    margin: 4px 0;
+  }
+
+  .post-details > :first-child {
+    font-weight: 600;
+    color: ;
+  }
+
+  .shipment, .product-name {
+    font-size: 0.8em;
+  }
+
+  .shipment {
+    color: #20A346;
+  }
+
+  .product-name {
+
+  }
+
+
+ 
 .image {
 
     height: 150px;
@@ -163,6 +191,30 @@
     object-fit: contain;
     
 
+}
+
+.characteristics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.comment-reply {
+  margin-bottom: 40px;
+  background: ;
+}
+
+.comment, .reply {
+  display: flex;
+  align-items: flex-start;
+}
+
+.comment-icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.reply {
+  color: #7A7A7A;
 }
 
   .description {
